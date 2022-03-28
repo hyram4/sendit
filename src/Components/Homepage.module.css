@@ -1,0 +1,103 @@
+.body{
+    background-color:rgb(209, 231, 255);
+}
+img{
+    margin-left: 10px;
+    Height:500px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+#main{
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#desc{
+    margin-top:70px;
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    color:black;
+    position: relative;
+   
+}
+#desc h1{ font-size: 3.3em;
+    align-self: center;
+  
+}
+#desc p{
+    position: absolute;
+  top: 30%;
+    font-size:1em;
+    width:60%;
+    text-align: center;
+    align-self: center;
+}
+#logout{
+    padding-left:40%;
+}
+#contactus{
+    position: absolute;
+    top: 60%;
+    border:solid 1px black;
+    padding: 10px 10px 10px 0px;
+    background-color:rgb(209, 231, 255);
+    border-radius:5px;
+    margin-top: 10px;
+    width:10vw;
+    align-self: center;
+}  
+@media screen and (max-width:900px){
+    #desc h1{ font-size: 3.3em;
+        text-align: center; 
+    }
+    #main{
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    #desc{
+        margin-top:70px;
+        padding-top: 30px;
+        display:flex;
+        flex-direction: column;
+        color:black;
+        position: relative;
+       
+    }
+    #desc p{
+        position: absolute;
+      top: 100%;
+        font-size:1em;
+        width:60%;
+        text-align: center;
+        align-self: center;
+    }
+    #contactus{
+        position: absolute;
+        top: 170%;
+        border:solid 1px black;
+        padding: 10px 10px 10px 10px;
+        background-color:rgb(209, 231, 255);
+        border-radius:4px;
+        margin-top: 10px;
+        width:40vw;
+        align-self: center;
+    } 
+    img{
+        Height:400px;
+        width:100%;
+        margin-top: 80%;
+        
+    }
+}
+#nav h3{
+    margin-left: 70%;
+}
+span{
+    color:rgb(1, 124, 255);
+}

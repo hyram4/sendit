@@ -1,0 +1,40 @@
+#historymain{
+    display:flex;
+    flex-direction:row;
+    gap:10%;
+    margin-top: 4%;
+    justify-content: center;
+}
+#sentparcels{
+    width:40%;
+    background-color: white;
+    height:60%;
+}
+#intransition{
+    width:40%;
+    background-color: white;
+    height:60%;
+}
+#h2{
+    margin-left:50%;
+}
+@media screen and (max-width:900px){
+    #historymain{
+        display:flex;
+        flex-direction:column;
+        gap:30%;
+        margin-top: 4%;
+        justify-content: center;
+        align-items: center;
+    }#intransition{
+        width:70%;
+        background-color: white;
+        height:60%;
+        margin-top: 7%;
+    }
+    #sentparcels{
+        width:70%;
+        background-color: white;
+        height:60%;
+    }
+}

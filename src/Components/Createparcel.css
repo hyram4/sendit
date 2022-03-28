@@ -1,0 +1,29 @@
+#createparcel{
+    width:70%;
+    height:40px;
+    padding-left:20px;
+    margin-top: 10px;
+    border-radius:5px;
+}
+.containercreateparcel{
+    width:40%;
+    border-radius: 10px;
+    background-color: white;
+  justify-content: center;
+  margin-left:30%;
+  margin-top:20px;
+  padding-top:3px;
+  padding-bottom:10px;
+}
+@media screen and (max-width:900px){
+  .containercreateparcel{
+    width:60%;
+    border-radius: 10px;
+    background-color: white;
+  justify-content: center;
+  margin-left:20%;
+  margin-top:20px;
+  padding-top:3px;
+  padding-bottom:10px;
+}
+}
